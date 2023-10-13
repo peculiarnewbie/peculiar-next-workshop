@@ -3,8 +3,9 @@
 import { useState } from "react";
 
 export default function Hello() {
-	const [name, setName] = useState("bolt");
+	const name = "bolt";
 	const [isOpen, setIsOpen] = useState(false);
+	// let isOpen = false;
 
 	return (
 		<div>
